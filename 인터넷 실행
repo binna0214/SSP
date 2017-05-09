@@ -1,0 +1,13 @@
+#include "stdafx.h"
+#include <string.h>  //strcpy()
+#include <stdlib.h>  //system()
+
+int main(int argc, char* argv[])
+{
+char command[256];
+
+strcpy( command, "\"c:\\Program Files\\Internet Explorer\\iexplore.exe\" http://www.google.com" );
+
+system(command);
+return 0;
+}
