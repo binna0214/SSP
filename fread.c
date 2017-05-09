@@ -62,6 +62,31 @@ int main()
     else
       info[2].cnt++;
   }
+  /*
+  int flag = 0;
+  int ncnt = 0; // info 개수 
+  
+   for(i=0; i<nCnt-1; i++)
+  {
+    flag = 0;
+    for(j=0; j<=ncnt; j++)
+    {
+          if(strcmp(info[j].abType, data[i].abType) == 0 )
+          {
+              info[j].cnt++;
+              flag =1;
+              break;
+          }
+     }
+     if(flag == 0 )
+     {
+        strcpy(info[nCnt].abType, data[i].abType);
+        info[nCnt].cnt++;
+        ncnt++;
+     }
+    }
+  
+  */
   
   fclose(fp);
   
